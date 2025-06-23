@@ -720,7 +720,7 @@ async function processAgentInteractions(eoa, aa_address, access_token, userAgent
     log('Chơi với AI nào...', 'custom');
 
     const questions = {
-      'deployment_KiMLvUiTydioiHm7PWZ12zJU': [
+      'deployment_MJX99ReRJ0PViYQ89xB0jcbI': [
         'What are the key benefits of using Kite AI for developers?',
         'How does Kite AI enhance productivity in coding projects?',
         'What new tools has Kite AI recently introduced?',
@@ -732,7 +732,7 @@ async function processAgentInteractions(eoa, aa_address, access_token, userAgent
         'What are some tips for getting the most out of Kite AI?',
         'How does Kite AI ensure code quality in its suggestions?'
       ],
-      'deployment_ByVHjMD6eDb9AdekRIbyuz14': [
+      'deployment_nXOmSXjGYfDOCO6iHSw9GKRk': [
         'What is the short-term price trend for Ethereum?',
         'How is the market reacting to recent Bitcoin news?',
         'Which cryptocurrencies are currently undervalued?',
@@ -747,8 +747,8 @@ async function processAgentInteractions(eoa, aa_address, access_token, userAgent
     };
 
     const services = [
-      { service_id: 'deployment_KiMLvUiTydioiHm7PWZ12zJU', subnet: 'kite_ai_labs' },
-      { service_id: 'deployment_ByVHjMD6eDb9AdekRIbyuz14', subnet: 'kite_ai_labs' }
+      { service_id: 'deployment_MJX99ReRJ0PViYQ89xB0jcbI', subnet: 'kite_ai_labs' },
+      { service_id: 'deployment_nXOmSXjGYfDOCO6iHSw9GKRk', subnet: 'kite_ai_labs' }
     ];
 
     let interactionCount = 0;
